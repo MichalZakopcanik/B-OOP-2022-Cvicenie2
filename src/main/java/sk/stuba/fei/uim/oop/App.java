@@ -1,8 +1,6 @@
 package sk.stuba.fei.uim.oop;
 
 import java.util.Arrays;
-import java.util.Objects;
-import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
@@ -21,7 +19,12 @@ public class App {
 
         }
 
-        public static void testPrimitive(int cislo){
+    /**
+     * tato funkcia vypisuje cislo
+     * @param cislo - integer cislo
+     */
+
+    public static void testPrimitive(int cislo){
             cislo = 10;
             System.out.println(cislo);
         }
